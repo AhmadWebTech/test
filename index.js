@@ -8,8 +8,8 @@ const green = "\x1b[32m";
 const red = "\x1b[31m";
 
 const raindropApiBaseUrl = "https://api.raindrop.io/rest/v1";
-const raindropApiToken = process.env.raindropApiToken;
-const raindropLists = process.env.raindropListIds.split(",").map(Number);
+const raindropApiToken = secrets.raindropApiToken;
+const raindropLists = secrets.raindropListIds.split(",").map(Number);
 
 let currentListIndex = 0;
 let pageNr = 0;
