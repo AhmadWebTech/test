@@ -2,7 +2,6 @@ const request = require("request");
 const cheerio = require("cheerio");
 const moment = require("moment");
 const express = require("express");
-require('dotenv').config();
 
 const reset = "\x1b[0m";
 const green = "\x1b[32m";
